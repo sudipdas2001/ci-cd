@@ -18,7 +18,6 @@ jobs:
 
       - name: Run a one-line script
         run:
-          docker build -t sudipdasvu/app .
-          
+          docker build -t sudipdasvu/app .          
           docker login -u sudipdasvu -p dckr_pat_G9Ix0tMlAiReRB8EeX6zJCH3Zbo
           docker push sudipdasvu/app
