@@ -22,5 +22,5 @@ jobs:
           
           docker login -u sudipdasvu -p dckr_pat_G9Ix0tMlAiReRB8EeX6zJCH3Zbo
 
-          docker tag app sudipdasvu/demo
+          docker tag app:latest sudipdasvu/demo:latest
           docker push sudipdasvu/demo
